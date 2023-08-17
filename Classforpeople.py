@@ -9,10 +9,10 @@ class People:
         #change age (get older) and change home
     
 
-    def Changemetods(self):
+    def change_metods(self, new_age, new_home):
         
-        self.age= "50"
-        self.home= "Paris"
+        self.age= new_age
+        self.home= new_home
     
     def Callresults(self):
 
@@ -23,6 +23,6 @@ class People:
 
 p1=People("Laura","28","Belfort","Toulouse")
 p1.Callresults()
-p1.Changemetods()
+p1.change_metods("50", "Paris")
 p1.Callresults()
 
